@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="../CSS/home_style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+</head>
+<body>
+    <!--Header-->
+    <div class="header">
+        <div class="top_half">
+            <div class="topbox">
+                <img src="../Asset_Files/DiamondCut Logo.png" alt="DiamondCut Motors">
+            </div>
+            <div class="topbox">
+                <a href="login.html" class="login">Login</a>
+            </div>
+        </div>
+        
+        <!--Navbar-->
+        <div class="nav">
+            <div class="navbox">
+                <a href="home.html" class="home">Home</a>
+            </div>
+            <div class="navbox">
+                <a href="product.html" class="product">Product</a>
+            </div>
+            <div class="navbox">
+                <a href="product.html" class="product">Purchase</a>
+            </div>
+            <div class="navbox">
+                <a href="aboutus.html" class="about">About Us</a>
+            </div>
+            <div class="navbox">
+                <a href="locations.html" class="locations">Locations</a>
+            </div>
+        </div>
+    </div>
+
+    <!--Main Content-->
+    <div class="content">
+        <div class="top_pick_gallery">
+            <div class="pictures">
+                <img src="../Asset_Files/revuelto-orange.jpg" alt="Revuelto_Orange" class="slide">
+                <img src="../Asset_Files/porsche-taycan-turbo-gt.jpg" alt="Taycan_Porsche" class="slide">
+                <img src="../Asset_Files/bugatti-centodieci-2022-zehntes-und-letztes-exemplar.jpg" alt="Centiodieci_Bugatti" class="slide">
+            </div>
+
+            <button class="left_button" onclick="increment_slide(-1)">
+                <img src="../Asset_Files/left_arrow.png" alt="Left">
+            </button>
+            <button class="right_button" onclick="increment_slide(1)">
+                <img src="../Asset_Files/right_arrow.png" alt="Right">
+            </button>
+
+            <h1>DiamondCut Motors.<br>Gallery of Our Top Picks!</h1>
+            <div class="slide_text">Revuelto Orange</div>
+        </div>
+
+        <div class="logo">
+            <img src="../Asset_Files/DiamondCut Logo.png" alt="DiamondCut Motors">
+        </div>
+
+        <div class="tagline">  
+            <h2>Our Tagline, Our Motto, Our Ideal</h2>
+            <h1>"Nothing is Impossible."</h1>
+        </div>
+
+        <div class="featured_text">
+            <h1>Featured</h1>
+        </div>
+        <div class="featured_list">
+            <img src="../Asset_Files/2024-lamborghini-revuelto-exterior.jpg" alt="Revuelto Yellow" class="box">
+            <img src="../Asset_Files/1 Mercedes AMG GT.jpg" alt="Mercedes AMD GT" class="box">
+            <img src="../Asset_Files/bugatti-centodieci-2022-zehntes-und-letztes-exemplar.jpg" alt="Centiodieci Bugatti" class="box">
+            <img src="../Asset_Files/porsche-normal_cayenne.jpg" alt="Cayenne Porsche" class="box">
+            <img src="../Asset_Files/lamborghini-autentica.jpg" alt="Lamborghini Autentica" class="box">
+            <img src="../Asset_Files/porsche-normal_panamera.jpg" alt="Panamera Porsche" class="box">
+            <img src="../Asset_Files/porsche-taycan-turbo-gt.jpg" alt="Taycan Turbo GT Porsche" class="box">
+            <img src="../Asset_Files/revuelto-orange.jpg" alt="Revuelto Orange" class="box">
+        </div>
+    </div>
+
+    <!--Footer-->
+    <div class="footer">
+        <div class="contacts">
+            <p>Contact Us</p>
+        </div>
+        <div class="icon">
+            <img src="../Asset_Files/facebook-app-round-white-icon.png" alt="Facebook">
+            <img src="../Asset_Files/x-social-media-white-round-icon.png" alt="X">
+            <img src="../Asset_Files/instagram-white-icon.png" alt="Instagram">
+            <img src="../Asset_Files/youtube-app-white-icon.png" alt="Youtube">
+            <img src="../Asset_Files/mail-icon.png" alt="Email">
+        </div>
+        <div class="company">
+            <p>© DiamondCut Motors</p>
+        </div>
+    </div>
+
+    <script src="../JavaScript/home_script.js"></script>
+</body>
+</html>

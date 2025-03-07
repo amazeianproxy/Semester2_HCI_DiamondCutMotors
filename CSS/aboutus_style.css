@@ -1,0 +1,339 @@
+/*
+Colors:
+#010A38 - darkish blue
+#495282 - greyish blue
+#3C38FF - zaffre blue
+#D11A93 - pink magenta
+#9593FF - blurple
+#434343 - grey
+#9747FF - purple
+#D11A38 - red
+*/
+
+/*Header*/
+.header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #010A38;
+    z-index: 100;
+}
+
+.top_half{
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    display: flex;
+    justify-content: space-between;
+    width: auto;
+    height: 50px;
+}
+
+.topbox{
+    display: flex;
+    padding-top: 10px;
+}
+
+.topbox a{
+    color: white;
+    justify-content: center;
+    background-color: #3C38FF;
+    border-radius: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 12px;
+    padding-bottom: 10px;
+    text-decoration: none;
+}
+
+.topbox a:hover{
+    background-color: #9593FF;
+    transition-duration: 500ms;
+    transition-timing-function: ease-out;
+    border-radius: 20px;
+}
+
+/*Navbar*/
+.nav{
+    display: flex;
+    background-image: linear-gradient(to left, #495282 50%, #010A38);
+    padding: 10px;
+    column-gap: 30px;
+    justify-content: right;
+    padding-right: 30px;
+}
+
+.navbox{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.navbox a{
+    display: flex;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+.navbox a:hover{
+    background-color: #D11A93;
+    transition-duration: 300ms;
+    transition-timing-function: ease-out;
+    border-radius: 10px;
+}
+
+/*Main Content*/
+.content{
+    margin-top: 119px;
+    margin-bottom: 20px;
+}
+
+.title{
+    margin-left: 80px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    display: flex;
+}
+
+h1{
+    font-size: 6vw;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+.vision{
+    margin-left: 80px;
+    margin-bottom: 20px;
+    background-color: #3C38FF;
+    display: flex;
+    padding: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    width: fit-content;
+    border-radius: 50px;
+    text-align: center;
+}
+
+.mission{
+    margin-left: 80px;
+    margin-bottom: 20px;
+    background-color: #9593FF;
+    display: flex;
+    padding: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    width: fit-content;
+    border-radius: 50px;
+    text-align: center;
+}
+
+.history{
+    margin-left: 80px;
+    margin-bottom: 20px;
+    background-color: #9747FF;
+    display: flex;
+    padding: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    width: fit-content;
+    border-radius: 50px;
+    text-align: center;
+}
+
+h2{
+    font-size: 2vw;
+    color: #FFFFFF;
+    font-weight: bold;
+    text-shadow: 0px 0px 10px #000000;
+}
+
+.description{
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-bottom: 50px;
+    background-color: #FFFFFF22;
+    border-color: #9593FF;
+    border-style: dotted;
+    border-width: 0.5vw;
+    border-radius: 20px;
+    padding: 40px;
+    transition: 200ms background-color ease-in-out;
+}
+
+.description[shine]{
+    background-color: #49528265;
+}
+
+.description p{
+    font-size: 1.8vw;
+    color: #FFFFFF;
+    text-indent: 50px;
+    text-shadow: 0px 0px 20px #FFFFFF;
+}
+
+.socialmedia{
+    justify-content: absolute;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.icon_flexbox{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    align-items: center;
+    position: relative;
+    justify-content: center;
+    margin-bottom: 80px;
+}
+
+.icon_bubble1{
+    display: flex;
+    background-color: #3C38FF;
+    gap: 10px;
+    padding: 20px;
+    border-radius: 50px;
+    text-align: center;
+}
+
+.icon_bubble2{
+    display: flex;
+    background-color: #434343;
+    gap: 10px;
+    padding: 20px;
+    border-radius: 50px;
+    text-align: center;
+}
+
+.icon_bubble3{
+    display: flex;
+    background-color: #D11A93;
+    gap: 10px;
+    padding: 20px;
+    border-radius: 50px;
+    text-align: center;
+}
+
+.icon_bubble4{
+    display: flex;
+    background-color: #D11A38;
+    gap: 10px;
+    padding: 20px;
+    border-radius: 50px;
+    text-align: center;
+}
+
+.icon_bubble5{
+    display: flex;
+    background-color: #495282;
+    gap: 10px;
+    padding: 20px;
+    padding-left: 60px;
+    padding-right: 60px;
+    border-radius: 50px;
+    text-align: center;
+}
+
+.icon_bubble1, .icon_bubble2, .icon_bubble3, .icon_bubble4, .icon_bubble5 img{
+    height: 2.5vw;
+}
+
+.icon_bubble1, .icon_bubble2, .icon_bubble3, .icon_bubble4, .icon_bubble5 p{
+    font-size: 2vw;
+    color:#FFFFFF;
+    font-weight: bold;
+    margin-right: 5px;
+    margin-left: 10px;
+}
+
+/*Footer*/
+.footer{
+    position: fixed;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    bottom: 0;
+    width: 100%;
+    height: 20px;
+    background-color: #010A38;
+    padding: 10px;
+    white-space: nowrap;
+    z-index: 100;
+}
+
+.icon{
+    display: flex;
+    gap: 10px;
+    flex: 1;
+    padding-right: 10px;
+}
+
+.footer p{
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: bold;
+    padding-right: 20px;
+}
+
+.footer img{
+    height: 20px;
+}
+
+/*All & Etc.*/
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Raleway", Arial, sans-serif;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    background-image: url(/Asset_Files/BG_dark.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-x: hidden;
+}
+
+@media only screen and (max-width: 768px) {
+
+    h1{
+        font-size: 8vw;
+        color: #FFFFFF;
+        font-weight: bold;
+    }
+
+    h2{
+        font-size: 4vw;
+        color: #FFFFFF;
+        font-weight: bold;
+        text-shadow: 0px 0px 10px #000000;
+    }
+
+    .description p{
+        font-size: 3vw;
+        color: #FFFFFF;
+        text-indent: 50px;
+    }
+
+    .icon_bubble1, .icon_bubble2, .icon_bubble3, .icon_bubble4, .icon_bubble5 img{
+        height: 4vw;
+    }
+    
+    .icon_bubble1, .icon_bubble2, .icon_bubble3, .icon_bubble4, .icon_bubble5 p{
+        font-size: 3vw;
+        color:#FFFFFF;
+        font-weight: bold;
+        margin-right: 5px;
+        margin-left: 10px;
+    }
+}
